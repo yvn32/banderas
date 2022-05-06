@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flag{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+}
+.blanco{
+    width: 100%;
+    height: 33.3%;
+    background-color: white;
+}
+.azul{
+    width: 100%;
+    height: 33.3%;
+    background-color: blue;
+}
+.rojo{
+    width: 100%;
+    height: 33.3%;
+    background-color: red;
+}
+.blanco_jap{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+}
+.rojo_jap{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 100px;
+    margin: auto;
+}
